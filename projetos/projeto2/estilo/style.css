@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Ranga&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font2: 'Paytone One', sans-serif;
+    --font3: 'Ranga', cursive;
+}
+
+
+
+html, body {
+    background-color: darkgray;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 5vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.3vw;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.42);
+    color: white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow:inset 0px 3px 20px 4px rgba(0, 0, 0, 0.447);
+    background-attachment: fixed;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.694);
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.34);
+    display: inline-block;
+    padding: 10px;
+}
+
+section > p{
+    padding: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section#img01 {
+    background-image: url(../assets/imagens/background001.jpg);
+}
+
+section#img02 {
+    background-image: url(../assets/imagens/background002.jpg);
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
