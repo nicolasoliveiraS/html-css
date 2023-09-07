@@ -11,11 +11,11 @@
     <form action="cadastro.php" method="post">
         <p>
             <label for="iusu">Usuário: </label>
-            <input type="text" name="usu" id="iusu" required>
+            <input type="text" name="usu" id="iusu" required minlength="4" maxlength="10" size="30" placeholder="Digite...">
         </p>
         <p>
             <label for="isen">Senha: </label>
-            <input type="password" name="senha" id="isen" required>
+            <input type="password" name="senha" id="isen" required minlength="8" maxlength="12" size="30" placeholder="Digite...">
         </p>
         <p>
             <input type="submit" value="Enviar">
