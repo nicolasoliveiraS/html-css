@@ -7,5 +7,26 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        
+        <form action="#" method="get">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="nome" id="inome" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+                <label for="itel">Telefone:</label>
+                <input type="tel" name="tel" id="itel" required pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx">
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </fieldset>
 </body>
 </html>
